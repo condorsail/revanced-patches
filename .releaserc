@@ -23,6 +23,7 @@
           "gradle.properties",
         ],
         "message": "chore: Release v${nextRelease.version} [skip ci]"
+
       }
     ],
     [
