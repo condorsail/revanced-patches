@@ -152,6 +152,10 @@ public final class app/revanced/patches/cieid/restrictions/root/BypassRootChecks
 	public static final fun getBypassRootChecksPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/cryptomator/license/RemoveLicenseCheckPatchKt {
+	public static final fun getRemoveLicenseCheckPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/duolingo/ad/DisableAdsPatchKt {
 	public static final fun getDisableAdsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
@@ -168,12 +172,20 @@ public final class app/revanced/patches/facebook/ads/story/HideStoryAdsPatchKt {
 	public static final fun getHideStoryAdsPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
+public final class app/revanced/patches/fairemail/misc/pro/ProUnlockPatchKt {
+	public static final fun getForceProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
 public final class app/revanced/patches/finanzonline/detection/bootloader/BootloaderDetectionPatchKt {
 	public static final fun getBootloaderDetectionPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/finanzonline/detection/root/RootDetectionPatchKt {
 	public static final fun getRootDetectionPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/fxfileexplorer/unlockplus/UnlockPlusPatchKt {
+	public static final fun getUnlockPlusPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/googlenews/customtabs/EnableCustomTabsPatchKt {
@@ -358,6 +370,10 @@ public final class app/revanced/patches/netguard/broadcasts/removerestriction/Re
 
 public final class app/revanced/patches/nfctoolsse/misc/pro/UnlockProPatchKt {
 	public static final fun getUnlockProPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/nova/prime/UnlockPrimePatchKt {
+	public static final fun getUnlockPrimePatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/nunl/ads/HideAdsPatchKt {
@@ -872,6 +888,10 @@ public final class app/revanced/patches/strava/upselling/DisableSubscriptionSugg
 
 public final class app/revanced/patches/swissid/integritycheck/RemoveGooglePlayIntegrityCheckPatchKt {
 	public static final fun getRemoveGooglePlayIntegrityCheckPatch ()Lapp/revanced/patcher/patch/BytecodePatch;
+}
+
+public final class app/revanced/patches/tasker/trial/unlock/UnlockLicensePatchKt {
+	public static final fun getUnlockLicensePatch ()Lapp/revanced/patcher/patch/BytecodePatch;
 }
 
 public final class app/revanced/patches/ticktick/misc/themeunlock/UnlockThemePatchKt {
